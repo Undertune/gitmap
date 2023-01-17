@@ -1,0 +1,149 @@
+/* first 4 classes are ones that are used more than once in more then one page */
+.page{
+    color: black;
+    background-color: lightskyblue;
+}
+
+
+.Button{
+    display: flex;
+    width: 212px;
+    height: 70px;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 36px;
+    background-color: grey;
+    justify-content: center;
+    align-items: center;
+}
+
+.linkHeader{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.pageContent{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+
+
+
+/* classes for startPage */
+.headerText{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    border: 1px solid black;
+    background-color: grey;
+
+}
+.PersonPicture {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+    align-self: center;
+    margin-top: 20px;
+}
+.qualifications{
+    border: 1px solid black;
+    background-color: grey;
+    height: 200px;
+    width: 200px;
+}
+.table{
+    width: 100%;
+}
+.links{
+    margin: 0% auto;
+    background-color: grey;
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    height: 100px;
+    align-items: center;
+    justify-content: center;
+}
+.goals{
+    display: flex;
+    background-color: lightgray;
+    border: black solid 1px;
+}
+.eLife{
+    display: flex;
+    background-color: lightgray;
+    border: black solid 1px;
+}
+.education{
+    display: flex;
+    background-color: lightgray;
+    border: black solid 1px;
+}
+.cvForm{
+    display: flex;
+    background-color: lightgray;
+    border: black solid 1px;
+}
+
+
+
+/* classes for goals and ambitions */
+
+.tekniskfysik{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+}
+.Ironman{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+}
+.military{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+}
+
+
+
+/* Classes for earlyLife */
+.middleContent{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid black;
+    align-items: center;
+}
+
+.pageContentQ{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.inPageContentQ{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+
+/* Classes for CVform */
+.message{
+    width: auto;
+    background-color: grey;
+}
+
+.legend{
+    color: black;
+}
+.fieldset{
+    color: black;
+    margin: auto;
+}
